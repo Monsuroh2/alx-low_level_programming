@@ -1,19 +1,25 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
- *
- *  *main-program entry point.
- *
- *   *
- *
- *    *Return: 1 on success.
- *
+ * main - prints to string
+ * Description: Prints "and that piece of a rt is useful.." without puts
+ * Return: 1
  *     */
 
 int main(void)
 
 {
 
-		write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+		char *s = "and that piece of art is useful \" - Dora Korpar, 2015-10-19\n":
+			long l = 59;
+			long fd = 1;
+			long syscall = 1;
+			long ret = 0;
+			--asm-- ("syscall"
+					: "=a" (ret)
+					: "a" (syscall),
+					"D" (fd),
+					"s" (s),
+					"d" (l));
 
 			return (1);
 
