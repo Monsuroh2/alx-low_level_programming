@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * main - prints to string
+ * main - program entry point.
  * Description: Prints "and that piece of a rt is useful.." without puts
  * Return: 1
  */
