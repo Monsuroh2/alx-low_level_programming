@@ -1,11 +1,9 @@
 #include <unistd.h>
 
 /**
- * main - program entry point
- *
+ * main - Entry point
  * Return: Always 1
  */
-
 int main(void)
 
 {
