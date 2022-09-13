@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints alphabet x10
- * Description: prints alphabet x10
+ * print_alphabet_x10 - entry point
  * Return: 0
  */
 
@@ -22,4 +21,5 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 		i++;
 	}
-}	
+
+}
