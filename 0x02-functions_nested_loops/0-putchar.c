@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * main - Prints _putchar as a message
  *
  * Return: Alway 0 (success)
  */
+
 int main(void)
 {
 	_putchar('_');
@@ -17,6 +19,5 @@ int main(void)
 	_putchar('\n');
 
 
-	_putchar('\n');
 	return (0);
 }
