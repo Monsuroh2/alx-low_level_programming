@@ -2,7 +2,7 @@
 
 /**
  * main - main block
- * Description: finds and print the sum of the even-valued terms, followed by a new line
+ * Description: finds and print the sum of the even-valued term
  * Return: 0
  */
 

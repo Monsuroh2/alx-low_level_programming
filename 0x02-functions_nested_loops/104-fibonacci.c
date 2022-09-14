@@ -2,7 +2,7 @@
 
 /**
  * main - main block
- * Description: finds and prints the first 98 fibonacci numbers, starting with 1 and 2 followed by a new line 
+ * Description:  finds and prints the first 98 Fibonacci numbers 
  * Return: 0
  */
 
