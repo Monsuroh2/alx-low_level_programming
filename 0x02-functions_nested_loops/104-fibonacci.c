@@ -2,7 +2,7 @@
 
 /**
  * main - main block
- * Description:  finds and prints the first 98 Fibonacci numbers 
+ * Description: finds and prints the first 98 fibonacci numbers
  * Return: 0
  */
 
@@ -43,4 +43,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
