@@ -3,7 +3,7 @@
 /**
  * _isalpha - function to check if c ia letter, lowercase or uppercase
  * @c: is the int that will use for the argument of the function
- * Return 0 or 1
+ * Return: 0 or 1
  */
 
 int _isalpha(int c)
