@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - main block
- * Description: computes and prints the sum off all the multiples of 3 or 5 
+ * Description: computes and prints the sum of all the multiples of 3 or 5
  * Return: 0
  */
 
