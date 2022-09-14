@@ -2,7 +2,7 @@
 
 /**
  * main - main block
- * Description: prints the first 50 fibonacci numbers starting with 1 and 2 followed by a new line
+ * Description: prints the first 50 fibonacci numbers starting with 1 and 2
  * Return: 0
  */
 
