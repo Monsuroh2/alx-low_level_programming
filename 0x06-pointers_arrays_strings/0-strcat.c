@@ -2,25 +2,26 @@
 
 /**
  * _strcat - concatinate 2 strings
- * @dest: first string.
- * @src: second string.
+ * @dest:destination string.
+ * @src: string to be concatenated.
  * Return: string.
  */
 
 char *_strcat(char *dest, char *src)
 {
-		int i = 0, j = 0;
+		int i = 0;
+		int destLength = 0;
+		int counter = 0;
 
-		while (dest[i] != '\0')
-			i++;
-		while (src[j] != '\0')
+		while (dest[counter] != '\0')
 		{
-							dest[i] = src[j];
-									i++;
-											j++;
-												}
+			destLength++;
+			counter++;
+		}
 
-		dest[i] = '\0';
+		for (i = 0; src[i] != '\0'; i++)
+			dest[destLength + i] = src[i];
+		dest[destLength + i] = '\0';
 
 		return (dest);
 }
