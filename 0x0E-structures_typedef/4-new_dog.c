@@ -9,7 +9,6 @@
  *
  * Return: The pointer to a new dog
  */
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	int i, name_size, owner_size;
