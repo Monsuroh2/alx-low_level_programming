@@ -4,7 +4,7 @@
  * main - This calculates the values of two numbers
  * @argc: This is the argument count
  * @argv: This is the argument vector
- * 
+ *
  * Return: 0 if succesful
  */
 int main(int argc, char **argv)
